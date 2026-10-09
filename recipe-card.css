@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
+
+body {
+    margin: 0;
+    padding-top: 112px;
+    background-color: #1a1a2e;
+    font: 16px "Lato", sans-serif;
+    color: #f0f0f0;
+}
+
+main {
+    position: relative;
+    width: 983px;
+    height: 533px;
+    margin: 0 auto;
+    background: url("images/food-image-bg.png") no-repeat center / cover;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+    position: absolute;
+    top: 40px;
+    left: 387px;
+    margin: 0;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+.recipies-info {
+    position: absolute;
+    top: 47px;
+    left: 117px;
+    font-size: 12px;
+}
+
+.recipies-info p {
+    display: inline-block;
+    margin: 0 28px 0 0;
+}
+
+.recipies-info span {
+    color: #00d9c0;
+    font-weight: 900;
+}
+
+.btn-primary {
+    position: absolute;
+    top: 81px;
+    left: 252px;
+    width: 125px;
+    height: 32px;
+    padding: 0;
+    background: transparent;
+    border: 2px solid #f0f0f0;
+    border-radius: 20px;
+    color: #f0f0f0;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.btn-primary:hover {
+    background-color: #00d9c0;
+    border-color: #00d9c0;
+    color: #1a1a2e;
+}
+
+.prep-steps {
+    position: absolute;
+    top: 127px;
+    left: 400px;
+    width: 525px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.step {
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.5;
+    opacity: 0.9;
+}
